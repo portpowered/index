@@ -1,0 +1,88 @@
+{
+  "$comment": "Source of truth for README.md. Edit this file, then run: node scripts/render.mjs",
+  "title": "Port OS index",
+  "summary": "Everything Port OS publishes: the product, plugins and skills, reference data, device integration libraries, and the tooling we build with. Port OS connects AI to your devices.",
+  "sections": [
+    {
+      "title": "Port OS",
+      "items": [
+        { "name": "Website", "url": "https://portoperatingsystem.com", "description": "Connect your devices and AI clients." },
+        { "name": "Documentation", "url": "https://portoperatingsystem.com/docs/", "description": "Guides, concepts and the capability reference." },
+        { "name": "HTTP API reference", "url": "https://portoperatingsystem.com/api/", "description": "Every Port OS REST operation, with examples." },
+        { "name": "MCP server", "url": "https://api.portoperatingsystem.com/mcp", "description": "Streamable HTTP MCP endpoint for AI clients (OAuth sign-in required)." },
+        { "name": "llms.txt", "url": "https://portoperatingsystem.com/llms.txt", "description": "Machine-readable entry point for agents." }
+      ]
+    },
+    {
+      "title": "Plugins and skills",
+      "items": [
+        { "name": "portos-plugin", "repo": "portpowered/portos-plugin", "description": "The Port OS plugin for Claude and other AI clients: the hosted MCP connection plus skills." },
+        { "name": "portos-docs", "repo": "portpowered/portos-docs", "description": "Customer guides and agent skills; the source for the docs site and the plugin skills." }
+      ]
+    },
+    {
+      "title": "Reference data",
+      "items": [
+        { "name": "portos-reference-data", "repo": "portpowered/portos-reference-data", "description": "Public OpenAPI schema, capability catalog and agent documentation release assets." },
+        { "name": "@portpowered/reference-data", "url": "https://www.npmjs.com/package/@portpowered/reference-data", "description": "The reference data as an npm package (`npm i @portpowered/reference-data@next`)." },
+        { "name": "github.com/portpowered/portos-reference-data", "url": "https://pkg.go.dev/github.com/portpowered/portos-reference-data", "description": "The same reference data as a Go module." }
+      ]
+    },
+    {
+      "title": "Device integration libraries",
+      "items": [
+        { "name": "go-alexa", "repo": "portpowered/go-alexa", "description": "Unofficial Go wrapper for Alexa APIs." },
+        { "name": "go-august-lock", "repo": "portpowered/go-august-lock", "description": "Go client for the unofficial August and Yale lock APIs." },
+        { "name": "go-google-nest-sdm", "repo": "portpowered/go-google-nest-sdm", "description": "Go client for Google Nest Smart Device Management." },
+        { "name": "go-icloud", "repo": "portpowered/go-icloud", "description": "Go library for iCloud files, photos and Find My." },
+        { "name": "go-philips", "repo": "portpowered/go-philips", "description": "Go client for Philips lighting APIs." },
+        { "name": "go-ring", "repo": "portpowered/go-ring", "description": "Go library for Ring doorbells: auth, video streams and controls." },
+        { "name": "go-roborock", "repo": "portpowered/go-roborock", "description": "Go client for Roborock vacuums." },
+        { "name": "go-sonos", "repo": "portpowered/go-sonos", "description": "Go client for Sonos APIs." },
+        { "name": "go-tile", "repo": "portpowered/go-tile", "description": "Go client for the unofficial Tile API." },
+        { "name": "go-tplink", "repo": "portpowered/go-tplink", "description": "Go library for TP-Link cloud APIs." },
+        { "name": "go-tuya", "repo": "portpowered/go-tuya", "description": "Go library for Tuya devices." },
+        { "name": "pytile", "repo": "portpowered/pytile", "description": "Fork of bachya/pytile, a Python API for Tile trackers." },
+        { "name": "go-third-party-template", "repo": "portpowered/go-third-party-template", "description": "Template for new Go wrappers of third-party APIs." },
+        { "name": "awesome-smart-home", "repo": "portpowered/awesome-smart-home", "description": "A curated list of smart home integration libraries." }
+      ]
+    },
+    {
+      "title": "Developer tooling",
+      "items": [
+        { "name": "openapi-linter", "repo": "portpowered/openapi-linter", "description": "OpenAPI linting with YAML rule packs and Go check APIs." },
+        { "name": "markdown-linter", "repo": "portpowered/markdown-linter", "description": "Configurable Markdown linting with rule packs and a Go extension API." },
+        { "name": "api-docs-website-github-action", "repo": "portpowered/api-docs-website-github-action", "description": "GitHub Action that turns an OpenAPI or AsyncAPI document into a static site." },
+        { "name": "cask", "repo": "portpowered/cask", "description": "Homebrew casks." }
+      ]
+    },
+    {
+      "title": "Agents and runtimes",
+      "items": [
+        { "name": "go-stream-processor", "repo": "portpowered/go-stream-processor", "description": "Embedded Go stream processing with DAG pipelines, backpressure and checkpoints." },
+        { "name": "go-agent-harness", "repo": "portpowered/go-agent-harness", "description": "Realtime speech-to-speech agent harness for the terminal and WebMCP." },
+        { "name": "you-agent-factory", "repo": "portpowered/you-agent-factory", "description": "Agent factory workflow engine." },
+        { "name": "you-agent-factory-docs", "repo": "portpowered/you-agent-factory-docs", "description": "Documentation for the agent factory." },
+        { "name": "go-ai-text-classifier", "repo": "portpowered/go-ai-text-classifier", "description": "Go text classification with AI models." }
+      ]
+    },
+    {
+      "title": "WebMCP experiments",
+      "items": [
+        { "name": "webmcp-calendar", "repo": "portpowered/webmcp-calendar", "description": "A calendar for WebMCP." },
+        { "name": "webmcp-3d-model", "repo": "portpowered/webmcp-3d-model", "description": "A 3D model viewer for WebMCP." },
+        { "name": "display-text-tv-webmcp", "repo": "portpowered/display-text-tv-webmcp", "description": "A static WebMCP site for displaying text on your TV." },
+        { "name": "anki-web-mcp", "repo": "portpowered/anki-web-mcp", "description": "An Anki website that supports AI usage through WebMCP." }
+      ]
+    },
+    {
+      "title": "Learning",
+      "items": [
+        { "name": "learn-agent-factories", "repo": "portpowered/learn-agent-factories", "description": "Building agent factories, from zero to hero." },
+        { "name": "awesome-agent-factories", "repo": "portpowered/awesome-agent-factories", "description": "A curated list of agent factories." },
+        { "name": "ai-model-reference", "repo": "portpowered/ai-model-reference", "description": "A large reference of AI model concepts, papers and models." },
+        { "name": "checklists", "repo": "portpowered/checklists", "description": "A big book of checklists." }
+      ]
+    }
+  ]
+}

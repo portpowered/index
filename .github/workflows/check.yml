@@ -1,0 +1,27 @@
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 6 * * 1'
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/render.mjs --check
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          # The MCP endpoint answers 401 until a client signs in; npmjs.com blocks automated checks.
+          args: --no-progress --accept 200,401 --exclude 'npmjs.com' README.md
+          fail: true
