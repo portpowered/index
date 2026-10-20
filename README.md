@@ -10,6 +10,7 @@ Everything Port OS publishes: the product, plugins and skills, reference data, d
 | --- | --- |
 | [Website](https://portoperatingsystem.com) | Connect your devices and AI clients. |
 | [Documentation](https://portoperatingsystem.com/docs/) | Guides, concepts and the capability reference. |
+| [External resources](https://portoperatingsystem.com/docs/reference/external-resources/) | Libraries, repositories, packages, skills and endpoints built against Port OS. |
 | [HTTP API reference](https://portoperatingsystem.com/api/) | Every Port OS REST operation, with examples. |
 | [MCP server](https://api.portoperatingsystem.com/mcp) | Streamable HTTP MCP endpoint for AI clients (OAuth sign-in required). |
 | [llms.txt](https://portoperatingsystem.com/llms.txt) | Machine-readable entry point for agents. |

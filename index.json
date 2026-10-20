@@ -8,6 +8,7 @@
       "items": [
         { "name": "Website", "url": "https://portoperatingsystem.com", "description": "Connect your devices and AI clients." },
         { "name": "Documentation", "url": "https://portoperatingsystem.com/docs/", "description": "Guides, concepts and the capability reference." },
+        { "name": "External resources", "url": "https://portoperatingsystem.com/docs/reference/external-resources/", "description": "Libraries, repositories, packages, skills and endpoints built against Port OS." },
         { "name": "HTTP API reference", "url": "https://portoperatingsystem.com/api/", "description": "Every Port OS REST operation, with examples." },
         { "name": "MCP server", "url": "https://api.portoperatingsystem.com/mcp", "description": "Streamable HTTP MCP endpoint for AI clients (OAuth sign-in required)." },
         { "name": "llms.txt", "url": "https://portoperatingsystem.com/llms.txt", "description": "Machine-readable entry point for agents." }
