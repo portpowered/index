@@ -1,6 +1,8 @@
 # Port OS index
 
-Everything Port OS publishes: the product, plugins and skills, reference data, device integration libraries, and the tooling we build with. Port OS connects AI to your devices.
+An index for Port OS: an MCP cloud API that lets you connect AI to devices.
+
+Connect AI such as Claude, Muse and ChatGPT directly to device providers such as Roborock, Ring, Sonos and many more. Use it directly from your chat agent or CLI.
 
 <!-- Generated from index.json by scripts/render.mjs. Do not edit by hand. -->
 
@@ -45,9 +47,7 @@ Everything Port OS publishes: the product, plugins and skills, reference data, d
 | [go-tile](https://github.com/portpowered/go-tile) | Go client for the unofficial Tile API. |
 | [go-tplink](https://github.com/portpowered/go-tplink) | Go library for TP-Link cloud APIs. |
 | [go-tuya](https://github.com/portpowered/go-tuya) | Go library for Tuya devices. |
-| [pytile](https://github.com/portpowered/pytile) | Fork of bachya/pytile, a Python API for Tile trackers. |
 | [go-third-party-template](https://github.com/portpowered/go-third-party-template) | Template for new Go wrappers of third-party APIs. |
-| [awesome-smart-home](https://github.com/portpowered/awesome-smart-home) | A curated list of smart home integration libraries. |
 
 ## Developer tooling
 
@@ -57,34 +57,6 @@ Everything Port OS publishes: the product, plugins and skills, reference data, d
 | [markdown-linter](https://github.com/portpowered/markdown-linter) | Configurable Markdown linting with rule packs and a Go extension API. |
 | [api-docs-website-github-action](https://github.com/portpowered/api-docs-website-github-action) | GitHub Action that turns an OpenAPI or AsyncAPI document into a static site. |
 | [cask](https://github.com/portpowered/cask) | Homebrew casks. |
-
-## Agents and runtimes
-
-| Name | Description |
-| --- | --- |
-| [go-stream-processor](https://github.com/portpowered/go-stream-processor) | Embedded Go stream processing with DAG pipelines, backpressure and checkpoints. |
-| [go-agent-harness](https://github.com/portpowered/go-agent-harness) | Realtime speech-to-speech agent harness for the terminal and WebMCP. |
-| [you-agent-factory](https://github.com/portpowered/you-agent-factory) | Agent factory workflow engine. |
-| [you-agent-factory-docs](https://github.com/portpowered/you-agent-factory-docs) | Documentation for the agent factory. |
-| [go-ai-text-classifier](https://github.com/portpowered/go-ai-text-classifier) | Go text classification with AI models. |
-
-## WebMCP experiments
-
-| Name | Description |
-| --- | --- |
-| [webmcp-calendar](https://github.com/portpowered/webmcp-calendar) | A calendar for WebMCP. |
-| [webmcp-3d-model](https://github.com/portpowered/webmcp-3d-model) | A 3D model viewer for WebMCP. |
-| [display-text-tv-webmcp](https://github.com/portpowered/display-text-tv-webmcp) | A static WebMCP site for displaying text on your TV. |
-| [anki-web-mcp](https://github.com/portpowered/anki-web-mcp) | An Anki website that supports AI usage through WebMCP. |
-
-## Learning
-
-| Name | Description |
-| --- | --- |
-| [learn-agent-factories](https://github.com/portpowered/learn-agent-factories) | Building agent factories, from zero to hero. |
-| [awesome-agent-factories](https://github.com/portpowered/awesome-agent-factories) | A curated list of agent factories. |
-| [ai-model-reference](https://github.com/portpowered/ai-model-reference) | A large reference of AI model concepts, papers and models. |
-| [checklists](https://github.com/portpowered/checklists) | A big book of checklists. |
 
 ## Contributing
 

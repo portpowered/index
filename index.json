@@ -1,7 +1,7 @@
 {
   "$comment": "Source of truth for README.md. Edit this file, then run: node scripts/render.mjs",
   "title": "Port OS index",
-  "summary": "Everything Port OS publishes: the product, plugins and skills, reference data, device integration libraries, and the tooling we build with. Port OS connects AI to your devices.",
+  "summary": "An index for Port OS: an MCP cloud API that lets you connect AI to devices.\n\nConnect AI such as Claude, Muse and ChatGPT directly to device providers such as Roborock, Ring, Sonos and many more. Use it directly from your chat agent or CLI.",
   "sections": [
     {
       "title": "Port OS",
@@ -43,9 +43,7 @@
         { "name": "go-tile", "repo": "portpowered/go-tile", "description": "Go client for the unofficial Tile API." },
         { "name": "go-tplink", "repo": "portpowered/go-tplink", "description": "Go library for TP-Link cloud APIs." },
         { "name": "go-tuya", "repo": "portpowered/go-tuya", "description": "Go library for Tuya devices." },
-        { "name": "pytile", "repo": "portpowered/pytile", "description": "Fork of bachya/pytile, a Python API for Tile trackers." },
-        { "name": "go-third-party-template", "repo": "portpowered/go-third-party-template", "description": "Template for new Go wrappers of third-party APIs." },
-        { "name": "awesome-smart-home", "repo": "portpowered/awesome-smart-home", "description": "A curated list of smart home integration libraries." }
+        { "name": "go-third-party-template", "repo": "portpowered/go-third-party-template", "description": "Template for new Go wrappers of third-party APIs." }
       ]
     },
     {
@@ -55,34 +53,6 @@
         { "name": "markdown-linter", "repo": "portpowered/markdown-linter", "description": "Configurable Markdown linting with rule packs and a Go extension API." },
         { "name": "api-docs-website-github-action", "repo": "portpowered/api-docs-website-github-action", "description": "GitHub Action that turns an OpenAPI or AsyncAPI document into a static site." },
         { "name": "cask", "repo": "portpowered/cask", "description": "Homebrew casks." }
-      ]
-    },
-    {
-      "title": "Agents and runtimes",
-      "items": [
-        { "name": "go-stream-processor", "repo": "portpowered/go-stream-processor", "description": "Embedded Go stream processing with DAG pipelines, backpressure and checkpoints." },
-        { "name": "go-agent-harness", "repo": "portpowered/go-agent-harness", "description": "Realtime speech-to-speech agent harness for the terminal and WebMCP." },
-        { "name": "you-agent-factory", "repo": "portpowered/you-agent-factory", "description": "Agent factory workflow engine." },
-        { "name": "you-agent-factory-docs", "repo": "portpowered/you-agent-factory-docs", "description": "Documentation for the agent factory." },
-        { "name": "go-ai-text-classifier", "repo": "portpowered/go-ai-text-classifier", "description": "Go text classification with AI models." }
-      ]
-    },
-    {
-      "title": "WebMCP experiments",
-      "items": [
-        { "name": "webmcp-calendar", "repo": "portpowered/webmcp-calendar", "description": "A calendar for WebMCP." },
-        { "name": "webmcp-3d-model", "repo": "portpowered/webmcp-3d-model", "description": "A 3D model viewer for WebMCP." },
-        { "name": "display-text-tv-webmcp", "repo": "portpowered/display-text-tv-webmcp", "description": "A static WebMCP site for displaying text on your TV." },
-        { "name": "anki-web-mcp", "repo": "portpowered/anki-web-mcp", "description": "An Anki website that supports AI usage through WebMCP." }
-      ]
-    },
-    {
-      "title": "Learning",
-      "items": [
-        { "name": "learn-agent-factories", "repo": "portpowered/learn-agent-factories", "description": "Building agent factories, from zero to hero." },
-        { "name": "awesome-agent-factories", "repo": "portpowered/awesome-agent-factories", "description": "A curated list of agent factories." },
-        { "name": "ai-model-reference", "repo": "portpowered/ai-model-reference", "description": "A large reference of AI model concepts, papers and models." },
-        { "name": "checklists", "repo": "portpowered/checklists", "description": "A big book of checklists." }
       ]
     }
   ]
