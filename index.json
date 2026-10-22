@@ -6,6 +6,7 @@
     {
       "title": "Port OS",
       "items": [
+        { "name": "portos", "repo": "portpowered/portos", "description": "The Port OS home repository: what Port OS is and how to get started. Star it to follow the project." },
         { "name": "Website", "url": "https://portoperatingsystem.com", "description": "Connect your devices and AI clients." },
         { "name": "Documentation", "url": "https://portoperatingsystem.com/docs/", "description": "Guides, concepts and the capability reference." },
         { "name": "External resources", "url": "https://portoperatingsystem.com/docs/reference/external-resources/", "description": "Libraries, repositories, packages, skills and endpoints built against Port OS." },

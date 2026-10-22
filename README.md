@@ -10,6 +10,7 @@ Connect AI such as Claude, Muse and ChatGPT directly to device providers such as
 
 | Name | Description |
 | --- | --- |
+| [portos](https://github.com/portpowered/portos) | The Port OS home repository: what Port OS is and how to get started. Star it to follow the project. |
 | [Website](https://portoperatingsystem.com) | Connect your devices and AI clients. |
 | [Documentation](https://portoperatingsystem.com/docs/) | Guides, concepts and the capability reference. |
 | [External resources](https://portoperatingsystem.com/docs/reference/external-resources/) | Libraries, repositories, packages, skills and endpoints built against Port OS. |
