@@ -48,6 +48,13 @@
       ]
     },
     {
+      "title": "Device apps",
+      "items": [
+        { "name": "portos-android-tv", "repo": "portpowered/portos-android-tv", "description": "The Port OS app for Android TV and Google TV: install it and the TV becomes a Port OS device that AI can play media on, control and read." },
+        { "name": "Android TV APK", "url": "https://github.com/portpowered/portos-android-tv/releases/latest/download/portos-android-tv.apk", "description": "The newest signed APK from the latest release. Setup: https://portoperatingsystem.com/docs/user-guides/android-tv/" }
+      ]
+    },
+    {
       "title": "Developer tooling",
       "items": [
         { "name": "openapi-linter", "repo": "portpowered/openapi-linter", "description": "OpenAPI linting with YAML rule packs and Go check APIs." },

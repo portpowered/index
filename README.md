@@ -50,6 +50,13 @@ Connect AI such as Claude, Muse and ChatGPT directly to device providers such as
 | [go-tuya](https://github.com/portpowered/go-tuya) | Go library for Tuya devices. |
 | [go-third-party-template](https://github.com/portpowered/go-third-party-template) | Template for new Go wrappers of third-party APIs. |
 
+## Device apps
+
+| Name | Description |
+| --- | --- |
+| [portos-android-tv](https://github.com/portpowered/portos-android-tv) | The Port OS app for Android TV and Google TV: install it and the TV becomes a Port OS device that AI can play media on, control and read. |
+| [Android TV APK](https://github.com/portpowered/portos-android-tv/releases/latest/download/portos-android-tv.apk) | The newest signed APK from the latest release. Setup: https://portoperatingsystem.com/docs/user-guides/android-tv/ |
+
 ## Developer tooling
 
 | Name | Description |
