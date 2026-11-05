@@ -23,7 +23,8 @@ Connect AI such as Claude, Muse and ChatGPT directly to device providers such as
 
 | Name | Description |
 | --- | --- |
-| [portos-plugin](https://github.com/portpowered/portos-plugin) | The Port OS plugin for Claude and other AI clients: the hosted MCP connection plus skills. |
+| [portos-plugin](https://github.com/portpowered/portos-plugin) | The Port OS plugin for Claude: the hosted MCP connection plus skills. Install with `/plugin install portos --marketplace portpowered/portos-plugin`. |
+| [portos-plugin-releases](https://github.com/portpowered/portos-plugin-releases) | The same plugin for Codex, ChatGPT and VS Code, and the release ZIPs for every host. Both plugin repositories are published together from one source commit, so they always carry the same skills and connection. |
 | [portos-docs](https://github.com/portpowered/portos-docs) | Customer guides and agent skills; the source for the docs site and the plugin skills. |
 
 ## Reference data

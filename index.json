@@ -19,7 +19,8 @@
     {
       "title": "Plugins and skills",
       "items": [
-        { "name": "portos-plugin", "repo": "portpowered/portos-plugin", "description": "The Port OS plugin for Claude and other AI clients: the hosted MCP connection plus skills." },
+        { "name": "portos-plugin", "repo": "portpowered/portos-plugin", "description": "The Port OS plugin for Claude: the hosted MCP connection plus skills. Install with `/plugin install portos --marketplace portpowered/portos-plugin`." },
+        { "name": "portos-plugin-releases", "repo": "portpowered/portos-plugin-releases", "description": "The same plugin for Codex, ChatGPT and VS Code, and the release ZIPs for every host. Both plugin repositories are published together from one source commit, so they always carry the same skills and connection." },
         { "name": "portos-docs", "repo": "portpowered/portos-docs", "description": "Customer guides and agent skills; the source for the docs site and the plugin skills." }
       ]
     },
