@@ -11,6 +11,7 @@ Connect AI such as Claude, Muse and ChatGPT directly to device providers such as
 | Name | Description |
 | --- | --- |
 | [portos](https://github.com/portpowered/portos) | The Port OS home repository: what Port OS is and how to get started. Star it to follow the project. |
+| [port-os-smart-home-cloud-mcp](https://github.com/portpowered/port-os-smart-home-cloud-mcp) | What the Port OS smart home cloud MCP server does, which AI clients it works with, and one page per device provider such as Roborock MCP and Philips Hue MCP. |
 | [Website](https://portoperatingsystem.com) | Connect your devices and AI clients. |
 | [Documentation](https://portoperatingsystem.com/docs/) | Guides, concepts and the capability reference. |
 | [External resources](https://portoperatingsystem.com/docs/reference/external-resources/) | Libraries, repositories, packages, skills and endpoints built against Port OS. |

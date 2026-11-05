@@ -7,6 +7,7 @@
       "title": "Port OS",
       "items": [
         { "name": "portos", "repo": "portpowered/portos", "description": "The Port OS home repository: what Port OS is and how to get started. Star it to follow the project." },
+        { "name": "port-os-smart-home-cloud-mcp", "repo": "portpowered/port-os-smart-home-cloud-mcp", "description": "What the Port OS smart home cloud MCP server does, which AI clients it works with, and one page per device provider such as Roborock MCP and Philips Hue MCP." },
         { "name": "Website", "url": "https://portoperatingsystem.com", "description": "Connect your devices and AI clients." },
         { "name": "Documentation", "url": "https://portoperatingsystem.com/docs/", "description": "Guides, concepts and the capability reference." },
         { "name": "External resources", "url": "https://portoperatingsystem.com/docs/reference/external-resources/", "description": "Libraries, repositories, packages, skills and endpoints built against Port OS." },
